@@ -1,0 +1,26 @@
+{ 
+    "movies": [ 
+        { 
+            "id": 1, 
+            "title": "Green Book", 
+            "date": "November 16, 2018 ",
+            "desc": "When Tony Lip (Viggo Mortensen), a bouncer from an Italian-American neighborhood in the Bronx, is hired to drive Dr. Don Shirley (Mahershala Ali), a world-class black pianist, on a concert tour from Manhattan to the Deep South, they must rely on The Green Book to guide them to the few establishments that were then safe for African-Americans. Confronted with racism, danger-as well as unexpected humanity and humor-they are forced to set aside differences to survive and thrive on the journey of a lifetime. [Universal Pictures]", 
+            "image": "https://static.metacritic.com/images/products/movies/9/e8e5e4bcabafdf2442e4ba16450bec8f-250h.jpg", 
+            "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=10006&e=2208902400&videokbrate=1500&h=f6d9f8f98b2a3947503a53acd784b06a", 
+            "meta": 69, 
+            "user": 8.0, 
+            "genre": "Biography, Drama, History, Comedy, Music"  
+        },
+        { 
+            "id": 2, 
+            "title": "Roma", 
+            "date": "November 21, 2018 ",
+            "desc": "Roma follows Cleo (Yalitza Aparicio), a young domestic worker for a family in the middle-class neighborhood of Roma in Mexico City. Delivering an artful love letter to the women who raised him, Cuarón draws on his own childhood to create a vivid and emotional portrait of domestic strife and social hierarchy amidst political turmoil of the 1970s.", 
+            "image": "https://static.metacritic.com/images/products/movies/9/9b93199016c71cae5adb7e6355fb351a-250h.jpg", 
+            "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=10006&e=2208902400&videokbrate=1500&h=f6d9f8f98b2a3947503a53acd784b06a", 
+            "meta": 96, 
+            "user": 7.7, 
+            "genre": "Drama"  
+        } 
+    ]
+}
