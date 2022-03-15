@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue' 
 import AboutView from '../views/AboutView.vue' 
 import Movie from '../components/movie.vue' 
+import Admin from '../components/admin.vue' 
  
 Vue.use(VueRouter) 
  
@@ -21,6 +22,11 @@ const routes = [
     path: '/:id', 
     name: 'movie', 
     component: Movie 
+  },
+  { 
+    path: '/adminpanel', 
+    name: 'admin', 
+    component: Admin 
   } 
 ] 
  

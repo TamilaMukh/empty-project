@@ -1,16 +1,5 @@
 <template>
-    <div class="container mx-auto">
-        <div class="py-4 border-b border-gray-500" v-for="movie of movies" :key="movie.id">
-            <div @click="$router.push({name: 'movie', params: {id: movie.id}})" class="flex justify-between items-start">
-            <img class="mr-3" :src="movie.image" alt="">
-            <div class="info w-full">
-                <h2 class="font-bold text-xl">{{ movie.id }}. {{ movie.title }}</h2>
-                <p class="my-6 text-gray-500 text-sm">{{ movie.date }}</p>
-                <p>{{ movie.desc }}</p>
-            </div>
-            <p class="bg-green-600 font-bold text-xl p-3 rounded-md text-white">{{ movie.meta }}</p>
-            </div>
-        </div>
+    <div>
         <form class="block my-10" action="">
           <p class="text-xl font-bold ">enter name: </p>
           <input class="block my-3 border border-gray-300 w-full p-3 rounded-md " type="text" v-model="form.title" placeholder="enter title..">
@@ -55,15 +44,6 @@ export default {
       }
     };
   },
-  async created() {
-    try {
-      const res = await axios.get(this.baseURL);
-
-      this.movies = res.data;
-    } catch (e) {
-      console.error(e);
-    }
-  },
   methods: {
     async addMovie() {
       try {
@@ -80,6 +60,15 @@ export default {
       } catch (e) {
         console.error(e);
       }
+    }
+  },
+  async created() {
+    try {
+      const res = await axios.get(this.baseURL);
+
+      this.movies = res.data;
+    } catch (e) {
+      console.error(e);
     }
   }
 };
