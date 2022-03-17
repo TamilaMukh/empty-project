@@ -37,6 +37,7 @@
 
 <script>
 import axios from "axios";
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   data() {
@@ -55,15 +56,20 @@ export default {
       }
     };
   },
-  async created() {
-    try {
-      const res = await axios.get(this.baseURL);
-
-      this.movies = res.data;
-    } catch (e) {
-      console.error(e);
-    }
+  computed: mapGetters(["allPosts"]),
+  methods: mapActions(["fetchPosts"]),
+  async mounted() {
+    this.fetchPosts();
   },
+  // async created() {
+  //   try {
+  //     const res = await axios.get(this.baseURL);
+
+  //     this.movies = res.data;
+  //   } catch (e) {
+  //     console.error(e);
+  //   }
+  // },
   methods: {
     async addMovie() {
       try {
