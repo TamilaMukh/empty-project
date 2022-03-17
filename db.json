@@ -13,17 +13,69 @@
     },
     {
       "id": 2,
-      "title": "Roma",
+      "title": "Debruge",
       "date": "November 21, 2018 ",
       "desc": "Roma follows Cleo (Yalitza Aparicio), a young domestic worker for a family in the middle-class neighborhood of Roma in Mexico City. Delivering an artful love letter to the women who raised him, Cuarón draws on his own childhood to create a vivid and emotional portrait of domestic strife and social hierarchy amidst political turmoil of the 1970s.",
       "image": "https://static.metacritic.com/images/products/movies/9/9b93199016c71cae5adb7e6355fb351a-250h.jpg",
       "video": "https://video.internetvideoarchive.net/video.mp4?cmd=6&fmt=4&customerid=654126&publishedid=651938&e=2208902400&videokbrate=1500&h=e797df01680f6a68a1b9180652ea9412",
       "meta": 96,
       "user": 7.7,
-      "genre": "Drama"
+      "genre": "Drama",
+      "metacritic": [
+        {
+          "id": 1,
+          "name": "Robbie Collin",
+          "rate": "100",
+          "date": "Jun 20, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "If you’re not staggered by the technique on display here – the stuff that sets Bay’s work miles above the Fast & Furiouses, X-Men: Apocalypses and Tom Cruise-chasing Mummies of this world – you’re not paying attention."
+        },
+        {
+          "id": 2,
+          "name": "Robbie Collin",
+          "rate": "100",
+          "date": "Jun 20, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "If you’re not staggered by the technique on display here – the stuff that sets Bay’s work miles above the Fast & Furiouses, X-Men: Apocalypses and Tom Cruise-chasing Mummies of this world – you’re not paying attention."
+        },
+        {
+          "id": 3,
+          "name": "Robbie Collin",
+          "rate": "100",
+          "date": "Jun 20, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "If you’re not staggered by the technique on display here – the stuff that sets Bay’s work miles above the Fast & Furiouses, X-Men: Apocalypses and Tom Cruise-chasing Mummies of this world – you’re not paying attention."
+        }
+      ],
+      "usercritic": [
+        {
+          "id": 1,
+          "name": "AceTrigger94",
+          "rate": "10",
+          "date": "Jun 21, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "Fans of the previous movies should like this one. It's a Transformers movie so you can expect nonsensical plot line and a bunch of loud action sequences and explosions. IF those are your things this movie is a 10/10, if not then a 4/10."
+        },
+        {
+          "id": 2,
+          "name": "Robbie Collin",
+          "rate": "100",
+          "date": "Jun 20, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "If you’re not staggered by the technique on display here – the stuff that sets Bay’s work miles above the Fast & Furiouses, X-Men: Apocalypses and Tom Cruise-chasing Mummies of this world – you’re not paying attention."
+        },
+        {
+          "id": 3,
+          "name": "Robbie Collin",
+          "rate": "100",
+          "date": "Jun 20, 2017",
+          "img": "https://static.metacritic.com/images/publications/1567126959_2193_2013039817.png",
+          "review": "If you’re not staggered by the technique on display here – the stuff that sets Bay’s work miles above the Fast & Furiouses, X-Men: Apocalypses and Tom Cruise-chasing Mummies of this world – you’re not paying attention."
+        }
+      ]
     },
     {
-      "title": " Transformers: The Last Knight",
+      "title": "Transformers: The Last Knight",
       "date": "June 21, 2017 ",
       "desc": "Humans and Transformers are at war, Optimus Prime is gone. The key to saving our future lies buried in the secrets of the past, in the hidden history of Transformers on Earth. Saving our world falls upon the shoulders of an unlikely alliance: Cade Yeager (Mark Wahlberg); Bumblebee; an English Lord (Sir Anthony Hopkins); and an Oxford Professor (Laura Haddock). There comes a moment in everyone’s life when we are called upon to make a difference. In Transformers: The Last Knight, the hunted will become heroes. Heroes will become villains. Only one world will survive: theirs, or ours.",
       "image": "https://static.metacritic.com/images/products/movies/0/c7fc11c15a6cc675276e4bd5531705ea-250h.jpg",
@@ -32,6 +84,36 @@
       "user": "4.1",
       "genre": "Action, Adventure, Sci-Fi, Thriller",
       "id": 3
+    },
+    {
+      "rate": "3",
+      "review": "aaaaaaa",
+      "name": "aaaaaa",
+      "id": 4
+    },
+    {
+      "rate": "3",
+      "review": "aaaaaaa",
+      "name": "aaaaaa",
+      "id": 5
+    },
+    {
+      "rate": "1",
+      "review": "aaaaaaaa",
+      "name": "aaaa",
+      "id": 6
+    },
+    {
+      "rate": "1",
+      "review": "aaaaaaaaa",
+      "name": "aaa",
+      "id": 7
+    },
+    {
+      "rate": "1",
+      "review": "aaaaaa",
+      "name": "qqq",
+      "id": 8
     }
   ]
 }
